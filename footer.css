@@ -1,0 +1,139 @@
+footer{
+    background-color: #232121;
+    color: white;
+    padding-top: 50px;
+
+}
+footer>div{
+    width: 75%;
+    /* border: 2px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer>div>div{
+    /* border: 1px solid white; */
+}
+footer>div>div>h1{
+    padding-bottom: 15px;
+}
+footer>div>div+div>img{
+    padding: 40px 0px;
+}
+footer>div>div>div{
+    /* border: 1px solid white; */
+}
+footer>div>div>div>div{
+    border-bottom: 1px solid rgb(84, 83, 83);
+}
+
+footer>div>div>div>h3{
+    font-size: 1.1em;
+}
+#multi>div>div>img{
+    height: 60px;
+}
+.side{
+    display: flex;
+    padding: 20px 0px;
+    /* border-bottom: 1px solid rgb(84, 83, 83); */
+}
+.side>div+div{
+    padding-left:30px;
+    padding-top: 5px;
+}
+.side>div+div>p , footer>div>div+div>p{
+    color: #5d5d5d;
+    padding-top: 10px;
+}
+footer>div>div+div>p{
+    line-height: 30px;
+}
+footer>div>div+div>p>a{
+    color: white;
+    text-decoration: underline;
+}
+footer>div>div+div>button{
+    background-color: #d52349;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+
+
+#second_div{
+    padding-top: 40px;
+}
+#second_div>div>h1{
+    padding-bottom: 40px;
+}
+#second_div>div>div{
+    /* margin-top: 30px; */
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(84, 83, 83);
+
+}
+#border_b{
+    border-bottom: none;
+}
+#second_div>div>div>a{
+    color: rgb(176, 174, 174);
+    text-decoration: underline;
+}
+#second_div>div>div>a:hover{
+    text-decoration: none;
+}
+#icons>div>a>img{
+    height: 50px;
+    padding: 0px 5px;
+}
+#icons>div{
+    display: flex;
+}
+#icons>div>p{
+    position: relative;
+    left: 30px;
+    color: rgb(176, 174, 174);
+}
+#div_top{
+    margin-top: 40px;
+}
+#icons>div+div>p{
+    left: 60px;
+}
+#icons>div+div>p>a{
+    color: rgb(176, 174, 174);
+    text-decoration: underline;
+}
+#icons>div+div+div>p{
+    padding-left: 30px;
+}
+.border_none{
+    border-bottom: none;
+}
+
+aside>div{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    border-radius: 5px;
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(42, 41, 41);
+    color: #5d5d5d;
+}
+aside>div>p>a{
+    color: white;
+    text-decoration: underline;
+}
+aside>div>p>a:hover{
+    text-decoration: none;
+}
+aside{
+    padding: 100px 0px;
+}
